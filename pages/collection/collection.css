@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+p{
+    text-shadow:0 0 2px #D000FE,0 0 30px #D000FE,0px 0px 5px #D000FE, 0 0 150px #D000FE;
+    color:#D000FE; 
+    text-align: center;
+}
+.card {
+    text-align: center;
+    background-color: rgb(88, 88, 88);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .boxtext {
+    padding: 2px 16px;
+    width: 100%;
+    align-items: center;
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .container{
+    align-items: center;
+  }
+  div{
+    display: unset;
+  }
+  .titreCollection{
+    font-size: 50px;
+    margin-top: 0px;
+    background-size: cover;
+  }
+  .boxtext p{
+    font-size: 30px;
+  }
+  .row a{
+    text-decoration: none;
+    color: #D000FE; 
+  }
+.ajoutCarte{
+  position: absolute;
+  text-decoration: none;
+  background-color: rgb(88, 88, 88);
+  cursor: pointer;
+  top: 5%;
+  right: 0%;
+  border-radius: 20px;
+  margin-bottom: 0px;
+  z-index: -10;
+  }
+  a{
+    text-decoration: none;
+    color: #D000FE; 
+  }
+  .infosPossedez{
+    text-align: center;
+    color: #D000FE;
+  }
+  .newPacket{
+    position: fixed;
+    top: 0%;
+    right: 0%;
+  }
+  .ajoutPacket{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: white;
+    width: 40%;
+    height: 40%;
+  }
+  .information{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .information span{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+  }
+  .row button{
+    margin-left: 20px;
+  }
+  .voirPacket{
+    position: absolute;
+    text-decoration: none;
+    background-color: rgb(88, 88, 88);
+    cursor: pointer;
+    top: 5%;
+    left: 0%;
+    border-radius: 20px;
+    margin-bottom: 0px;
+    z-index: -10;
+  }

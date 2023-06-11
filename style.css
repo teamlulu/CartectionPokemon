@@ -1,0 +1,67 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+li{
+    margin-left: 5%;
+    font-size: 2rem;
+}
+body{
+  background-image: url(Pikachu.jpg);
+  background-repeat: no-repeat;
+}
+.Bienvenue{
+  position:fixed;
+  top: 50%;
+  left: 60%;
+}
+.section_3 {
+  position:fixed;
+  top: 30%;
+  left: 60%;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.section_3_partion_1 {
+  position: relative;
+}
+.partition_1_head {
+  background-color: rgb(185, 22, 22);
+  position: relative;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.welcome_message {
+  font-size: 3rem;
+  color: transparent;
+  transform: translate(5%, 40%);
+  font-family: sans-serif;
+  -webkit-text-stroke: 2px #b81818;
+  cursor: pointer;
+  transition: all .4s ease;
+  display: inline-block;
+}
+
+.welcome_message:hover {
+  color: rgba(185, 55, 55, 0.7);
+  -webkit-text-stroke: 0;
+}
+nav{
+  display: flex;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+  color: black;
+  margin-left: 1.5rem;
+}
